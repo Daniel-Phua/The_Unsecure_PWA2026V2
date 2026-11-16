@@ -8,7 +8,7 @@ import user_management as dbHandler
 # Code snippet for logging a message
 # app.logger.critical("message")
 
-app = Flask(__name__)
+app = Flask(__name__) #app name
 # Enable CORS to allow cross-origin requests (needed for CSRF demo in Codespaces)
 CORS(app)
 
